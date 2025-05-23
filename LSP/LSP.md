@@ -20,7 +20,8 @@
  - Andorinha e Pato são subclasses de Ave, e podem ser usadas na função mostrar_voo() sem nenhum problema.
  - O método voar() é redefinido nas subclasses, mas o contrato da superclasse é respeitado: ele existe e retorna um texto válido.
  - A função mostrar_voo() trata todos como uma Ave, sem saber qual tipo específico está recebendo – e tudo funciona corretamente.\
-Esse é o comportamento desejado quando seguimos o LSP.
+ 
+ Esse é o comportamento desejado quando seguimos o LSP.
 
 ### 5. Quais problemas ele evita?
  - Se violássemos o LSP, poderíamos criar uma subclasse que não implementa o comportamento esperado da superclasse.
