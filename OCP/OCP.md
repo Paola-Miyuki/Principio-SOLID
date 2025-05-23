@@ -1,6 +1,6 @@
 # OCP — Open-Closed Principle (Princípio Aberto-Fechado)
 
-### 1.  O que é? 
+### 1.  O que é e para que serve:
  * As classes devem estar abertas para extensão, mas fechadas para modificação. Ou seja, podemos adicionar comportamentos novos sem precisar mudar o código antigo.
 
 ### 2.  Explicação do código:

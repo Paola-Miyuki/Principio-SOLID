@@ -11,9 +11,7 @@
 ### 3. Explicação do código
  - Esse código representa um sistema com aves. Temos: 
     - Uma classe base Ave com o método voar()
-
     - Duas subclasses: Andorinha e Pato, que herdam de Ave e implementam seu próprio comportamento de voo.
-
     - Uma função mostrar_voo() que aceita qualquer objeto do tipo Ave e chama o método voar(), exibindo o resultado.
 
 ### 4.Onde o LSP está sendo aplicado?
