@@ -17,7 +17,7 @@
      - SmtpEmail: é a implementação concreta que realmente sabe como enviar o e-mail via SMTP.
      - Notificador: é a classe principal (módulo de alto nível). Ela cuida da regra de negócio: enviar notificações.
 
-### 4. Onde o SRP está sendo aplicado?
+### 4. Onde o DIP está sendo aplicado?
  - O DIP está sendo aplicado na classe Notificador, que depende de uma abstração (EnviadorEmail), e não de uma classe concreta como SmtpEmail. Assim, Notificador pode funcionar com qualquer tipo de envio, sem precisar ser alterado.
 
 ### 5. Quais problemas ele evita?
