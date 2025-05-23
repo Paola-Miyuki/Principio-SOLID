@@ -1,10 +1,10 @@
 OCP — Open-Closed Principle (Princípio Aberto-Fechado)
 
-- O que é?
-As classes devem estar abertas para extensão, mas fechadas para modificação. Ou seja, podemos adicionar comportamentos novos sem precisar mudar o código antigo.
+-> O que é? 
+* As classes devem estar abertas para extensão, mas fechadas para modificação. Ou seja, podemos adicionar comportamentos novos sem precisar mudar o código antigo.
 
-- Explicação do código:
-Este código simula um sistema simples de cálculo de preços para produtos, onde:Um produto tem nome e preço, e existe uma classe que calcula o preço normal e existe outra classe que calcula o preço com desconto de 10%.
+-> Explicação do código:
+-  Este código simula um sistema simples de cálculo de preços para produtos, onde:Um produto tem nome e preço, e existe uma classe que calcula o preço normal e existe outra classe que calcula o preço com desconto de 10%.
 
 * A classe Produto armazena o preço.
 * CalculadoraPreco é uma classe genérica para calcular o preço.
@@ -17,6 +17,6 @@ Este código simula um sistema simples de cálculo de preços para produtos, ond
 
 
 -> Quais problemas ele evita?
-Evitamos alterar o código antigo, o que reduz riscos de bugs e facilita a manutenção e evolução do sistema.
+- Evitamos alterar o código antigo, o que reduz riscos de bugs e facilita a manutenção e evolução do sistema.
 
 
