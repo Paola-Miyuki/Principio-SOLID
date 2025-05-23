@@ -1,4 +1,5 @@
 SRP — Single Responsibility Principle (Princípio da Responsabilidade Única)
+
 ->  O que é?
 - Uma classe deve ter apenas uma única responsabilidade. Isso significa que ela deve fazer apenas uma coisa, e ter um único motivo para mudar.
 
