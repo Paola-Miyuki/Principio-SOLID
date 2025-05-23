@@ -12,7 +12,6 @@
 ### 3. Explicação do código:
  - O código aplica o Princípio da Inversão de Dependência (DIP) separando a lógica principal da aplicação dos detalhes técnicos de como o e-mail é enviado. Em vez de depender diretamente de SmtpEmail, a classe Notificador recebe uma abstração chamada EnviadorEmail, que define o método enviar(). Isso permite que o Notificador funcione com qualquer classe que implemente essa abstração, sem precisar ser alterado.\
     Explicação das Classes:
-
      - EnviadorEmail: é uma interface/abstração. Define o que deve ser feito (enviar()), mas não diz como.
      - SmtpEmail: é a implementação concreta que realmente sabe como enviar o e-mail via SMTP.
      - Notificador: é a classe principal (módulo de alto nível). Ela cuida da regra de negócio: enviar notificações.
